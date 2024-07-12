@@ -43,7 +43,7 @@ function App() {
       <div className="canvas-container">
         <CanvasDraw
           ref={canvasRef}
-          brushRadius={10}
+          brushRadius={15}
           canvasWidth={200}
           canvasHeight={280}
           lazyRadius={0}
