@@ -1,0 +1,34 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+.app-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.canvas-container {
+  border: 2px solid #ccc;
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  margin-top: 20px;
+}
+
+.predict-button, .clear-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
