@@ -21,7 +21,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post('http://localhost:8000/api/predict', { image: dataURL }, {
+      const response = await axios.post('https://handigit-backend-1.onrender.com/api/predict', { image: dataURL }, {
         headers: {
           'Content-Type': 'application/json',
         },
